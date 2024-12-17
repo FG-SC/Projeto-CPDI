@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sobreNos {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+nav {
+    background: #0066cc;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+#sobreNos1 {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#sobreNos1 h1 {
+    font-size: 2.5rem;
+    color: #0066cc;
+    margin-bottom: 1rem;
+    font-family: "Playfair Display", serif;
+}
+
+#sobreNos1 p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+}
+
+#sobreNos1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#sobreNos1 img:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0066cc;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main h1 {
+        font-size: 1.8rem;
+    }
+
+    main p {
+        font-size: 0.9rem;
+    }
+
+    #advantages {
+        padding: 40px;
+    }
+
+    .advantagesContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    main p {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
