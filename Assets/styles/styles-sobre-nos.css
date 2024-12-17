@@ -1,0 +1,12 @@
+#sobreNos {
+    text-align: center; /* Centraliza o conteúdo dentro da seção */
+    margin: 0 auto;
+    width: 80%; /* Ajuste conforme necessário */
+}
+
+#sobreNos img {
+    display: block; /* Faz com que cada imagem seja tratada como um bloco */
+    margin: 20px auto; /* Espaço entre as imagens e centraliza */
+    max-width: 100%; /* Garante que as imagens não ultrapassem o limite da tela */
+    border-radius: 10px;
+}

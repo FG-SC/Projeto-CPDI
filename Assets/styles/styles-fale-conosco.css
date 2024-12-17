@@ -1,0 +1,75 @@
+/* fale-conosco.css */
+
+/* Importando a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Estilos específicos para a página Fale Conosco */
+
+/* Formulário centralizado */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espaçamento entre os campos */
+    margin: 0 auto;
+    max-width: 400px; /* Limita a largura do formulário */
+}
+
+/* Estilo para os rótulos (label) */
+form label {
+    font-size: 16px;
+    font-weight: 500;
+    align-self: flex-start;
+    margin-bottom: -8px;
+    color: #000000; /* Texto branco para contraste com o gradiente */
+}
+
+/* Campos do formulário */
+form input,
+form textarea {
+    width: 100%;
+    /*Ocupartodaalarguradisponível*/padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    /*Bordassutis*/border-radius: 5px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /*Fundotranslúcido*/color: #000000;
+    /*Textobranco*/outline: none;
+    transition: background-color 0.3s, border-color 0.3s;
+    -webkit-transition: background-color 0.3s, border-color 0.3s;
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    -ms-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #fff;
+}
+
+/* Botão */
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+}
+
+/* Espaçamento da imagem */
+main img {
+    display: block;
+    margin: 20px auto 0; /* Centraliza a imagem e adiciona margem superior */
+    max-width: 100%; /* Responsivo */
+    border-radius: 10px;
+}
