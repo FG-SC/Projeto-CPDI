@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
 #navegacao{
     width: 100%;
     height: 100px;
@@ -35,4 +39,128 @@ li{
 
 #navegacao a:hover{
     font-size: 23px;
+}
+
+.advantagesContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.item{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Mulish", sans-serif;
+}   
+
+p{
+    font-size: 17px;
+    font-family: "Poppins", serif;
+}
+
+#imageOne{
+    margin-left: 130px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+
+.itemTwo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#imageTwo{
+    height: 400px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.uli{
+    display: flex;
+    gap: 10px;
+    font-family: "Poppins", serif;
+}
+
+#imageThree{
+    height: 400px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+#imageFour{
+    height: 400px;
+    width: 850px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.01);
+}
+
+.animationPair{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+} 
+
+.animationOdd{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.animation{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+    transition: all 1s;
+} 
+
+.right{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(100%);
+    transition: all 1s;
+  
+}
+
+.rightOn{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+    transition: all 1s;
+}
+
+.left{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+    ;
+}
+
+.lefttOn{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+    transition: all 1s;
+    
 }
