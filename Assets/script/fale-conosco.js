@@ -23,9 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
             alert("Por favor, insira um e-mail válido.");
             return;
         }
-
         // Se tudo estiver válido, envia o formulário
-        alert("Mensagem enviada com sucesso!");
+        alert("Obrigado pela sua mensagem! Logo retornaremos");
         form.reset(); // Limpa o formulário após envio
     });
 });
